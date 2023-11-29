@@ -1,0 +1,88 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.ProfileImage {
+  width: 200px;
+}
+body {
+  background: linear-gradient(#7071e8 0%, #ffc7c7 40%, #7420d3);
+}
+.profile h2 {
+  color: white;
+}
+.profile h4 {
+  color: white;
+  transform: translateY(-10px);
+}
+.biodata {
+  background: linear-gradient(#ffffff 0%, #ffffffc4 40%, #ffffff00);
+  padding-bottom: 200px;
+}
+.footer {
+  color: white;
+  padding-top: 200px;
+}
+.contact a {
+  color: black;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.watermark {
+  color: white;
+  padding-top: 30px;
+}
+.biodata {
+  padding-top: 80px;
+}
+.project {
+  padding-top: 80px;
+  background: linear-gradient(#ffffff 0%, #ffffffc4 40%, #ffffff00);
+}
+.row {
+  padding: 0px 10px;
+}
+.button {
+  padding-bottom: 10px;
+}
+
+.edukasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.itemEdukasi {
+  padding: 10px;
+  margin-top: 20px;
+}
+.Gallery {
+  padding-top: 80px;
+}
+.clrbutton {
+  color: white;
+}
+#Home {
+  padding-top: 80px;
+}
+.nav {
+  background-color: (0, 0, 0, 0.6);
+  background: linear-gradient(135deg, (255, 255, 255, 0.1), (255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 (0, 0, 0.37);
+  -webkit-margin-start: auto;
+}
+.cNav {
+  color: white;
+}
+a.active,
+a:hover {
+  background: #8a10a5;
+  transition: 0.5s;
+  color: #ffffff;
+  border-radius: 10px;
+}
